@@ -147,7 +147,6 @@ const TEST_TYPES = {
         // well formed
         /toRdf-manifest.jsonld#twf05$/,
         // html
-        /html-manifest.jsonld#tr010$/,
         /html-manifest.jsonld#tr010$/,  // unescaped content
         // Invalid Statement
         /toRdf-manifest.jsonld#te075$/,
