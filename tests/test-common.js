@@ -32,7 +32,7 @@ try {
 } catch(e) {
   htmlSupport = false;
 }
-console.log("HTML Support: " + htmlSupport);
+console.log('HTML Support: ' + htmlSupport);
 
 const TEST_TYPES = {
   'jld:CompactTest': {
@@ -64,8 +64,8 @@ const TEST_TYPES = {
       //MMM-manifest.jsonld#tNNN$/,
       idRegex: [
         // html
-        /html-manifest.jsonld#tex01$/,  // XHTML
-        /html-manifest.jsonld#te010$/,  // unescaped content
+        /html-manifest.jsonld#tex01$/, // XHTML
+        /html-manifest.jsonld#te010$/, // unescaped content
         // remote
         /remote-doc-manifest.jsonld#t0013$/, // HTML
       ]
@@ -156,7 +156,7 @@ const TEST_TYPES = {
         // well formed
         /toRdf-manifest.jsonld#twf05$/,
         // html
-        /html-manifest.jsonld#tr010$/,  // unescaped content
+        /html-manifest.jsonld#tr010$/, // unescaped content
         // Invalid Statement
         /toRdf-manifest.jsonld#te075$/,
         /toRdf-manifest.jsonld#te111$/,
