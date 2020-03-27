@@ -4,6 +4,8 @@
 
 ### Fixed
 - Exclude `@type` from added values in Merge Node Maps step 2.2.1.
+- Fixed `prependBase` to start path with a '/' for a zero length path
+  if there is an authority in base.
 
 ## 3.0.0 - 2020-03-10
 
